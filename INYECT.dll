@@ -1,7 +1,4 @@
-                                            SYSTEM_INFO si;
-                                            GetSystemInfo(&si);
-                                            DWORD_PTR startAddress = (DWORD_PTR)si.lpMinimumApplicationAddress;
-                                            DWORD_PTR endAddress = (DWORD_PTR)si.lpMaximumApplicationAddress;
+
 
                                             if (memory.AttackProcess("HD-Player.exe")) {
                                                 std::vector<DWORD_PTR> Status7;
